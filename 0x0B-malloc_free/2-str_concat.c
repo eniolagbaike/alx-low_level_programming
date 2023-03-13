@@ -7,8 +7,9 @@
  * @s1: the first string to concatenate
  * @s2: the second string to concatenate
  *
- * Return: the two srings concatenated
+ * Return: the two strings concatenated
  */
+
 char *str_concat(char *s1, char *s2)
 {
 	int i = 0, j = 0, k = 0, l = 0;
