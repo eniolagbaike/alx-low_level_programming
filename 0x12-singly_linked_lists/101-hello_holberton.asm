@@ -1,9 +1,9 @@
-#include <stdio.h>
-
-int main()
-{
-   char msg[] = "Hello Holberton\n";
-   printf("%s\n",msg);
-
-   return 0;
-}
+iglobal   main
+	  extern    printf
+main:
+	  mov   edi, format
+	  xor   eax, eax
+	  call  printf
+	  mov   eax, 0
+	  ret
+format: db `Hello, Holberton\n`,0
